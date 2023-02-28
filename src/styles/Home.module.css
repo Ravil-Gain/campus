@@ -113,7 +113,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75px;
+  width: 175px;
   height: 75px;
   padding: 25px 10px;
   margin-left: 16px;
@@ -133,8 +133,8 @@
 /* Conic Gradient Animation */
 .thirteen::before {
   animation: 6s rotate linear infinite;
-  width: 200%;
-  height: 200%;
+  width: 500%;
+  height: 500%;
   background: var(--tile-border);
 }
 
@@ -259,6 +259,7 @@
 
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
+    cursor: pointer;
     filter: invert(1);
   }
 
