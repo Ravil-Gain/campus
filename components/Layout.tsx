@@ -23,7 +23,7 @@ const Layout = ({ children }: Props) => {
                     >
                         <p>
                             &nbsp;
-                            <code className={styles.code}>Source code</code>
+                            <code className={styles.code}>Watch Source code <span>-&gt;</span></code>
                         </p>
                     </a>
                     <div>
