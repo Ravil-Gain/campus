@@ -15,6 +15,22 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
+        <Link href="/areas/library" className={styles.card}>
+          <h2 className={inter.className}>
+            Library <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </Link>
+        <Link href="/areas/cafeteria" className={styles.card}>
+          <h2 className={inter.className}>
+            Cafeteria <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </Link>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -42,15 +58,6 @@ export default function Home() {
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>
-
-        <Link href="/areas/library" className={styles.card}>
-          <h2 className={inter.className}>
-            Library <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </Link>
       </div>
     </>
   )

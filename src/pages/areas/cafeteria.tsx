@@ -9,7 +9,7 @@ const Library = () => (
             </h2>
         </Link>
         <div className={styles.grid}>
-            <h1>Library description </h1>
+            <h1>Cafeteria description </h1>
         </div>
     </>
 );
